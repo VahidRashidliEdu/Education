@@ -1,0 +1,22 @@
+{
+   
+    "scripts": {    //or node-sass 
+        "compile:sass": "sass scss/main.scss css/style.comp.css", // take our main.scss which is in scss folder compile it into style.comp.css in css folder
+        "prefix:css": "postcss css/style.comp.css --use autoprefixer -o css/style.prefix.css", // take style.comp.css prefix it and put it in css folder with prefix name
+        "compress:css": "node-sass css/style.prefix.css css/style.min.css --output-style compressed",
+        "clean:css": "rm css/style.comp.css css/style.prefix.css",
+        "build:css": "npm-run-all compile:sass prefix:css compress:css clean:css"
+    },
+    "browserslist": "last 10 versions",  // IMPORTAN!!!!!!!
+    "devDependencies": {
+        "autoprefixer": "^9.8.6",
+        "node-sass": "^6.0.1", // or just sass
+        "npm-run-all": "^4.1.5",        
+        "postcss": "^8.3.9", // it is not mandatory
+        "postcss-cli": "^9.0.1",
+        "sass": "^1.43.2" // or just node-sass
+    }
+    
+}
+// packages: npm-run-all,postcss-cli (with it just postcss also could be needed),autoprefixer
+command to run: npm run build:css

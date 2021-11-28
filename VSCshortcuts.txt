@@ -1,0 +1,19 @@
+revert the previous line -----------ctrl+z
+zoom in/out-------------------------ctrl+/-
+Selecting the same text-------------ctrl+D
+h1#name-----------------------------<h1 id="name"></h1>(it works in this way)
+save--------------------------------ctrl+S
+to get all necessary starting tags---!+enter(when beginning)
+Copying and pasting with 1 click----shift+alt+down button
+jumping over words------------------ctrl+left/right
+selecting words---------------------ctrl+shift+right/left
+selecting contiguous folders--------hold shift+left click on mouse 
+selecting non-contiguous folders----hold ctrl+left click on mouse 
+refreshing page---------------------f5 
+all the copied data-----------------windows+v
+move selected code------------------select then hold alt+arrows
+putting comments--------------------ctrl+slash
+to switch between windows-----------hold alt and press tab
+delete a line ----------------------Ctrl + Shift + K
+search for a word on a document-----Ctrl + f
+delete the previous text------------Ctrl+back space

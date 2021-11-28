@@ -1,0 +1,3 @@
+Comment--CTRL + K then CTRL + C
+Selecting an entire line--- Shift+Home 
+Unselect an entire line--- Shift+End
