@@ -1,2 +1,3 @@
 Go to the previous page-----alt+left arrow
 To open the search field on chrome---/(forward slash)
+delete text by letter in place------delete
